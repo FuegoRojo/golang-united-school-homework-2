@@ -17,16 +17,16 @@ type SidesNumType int
 var SidesTriangle SidesNumType = 3
 var SidesSquare SidesNumType = 4
 var SidesCircle SidesNumType = 0
-var area float
+var area float32
 //const Pi float32 = 3.14
 
 func CalcSquare(sideLen float64, sidesNum SidesNumType) float64 {
 	if sidesNum == 3 {
-		area = Sqrt(3)/4*sideLen*sideLen
+		area = math.Sqrt(3)/4*sideLen*sideLen
 	} else if sidesNum == 4 {
 		area = sideLen*sideLen
 	} else if sidesNum == 0 {
-		area = Pi*sideLen*sideLen
+		area = math.Pi*sideLen*sideLen
 	} else {
 		area = 0
 	}
