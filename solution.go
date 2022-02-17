@@ -8,7 +8,9 @@ type SidesNumType int
 // CalcSquare(10.0, SidesSquare)
 // CalcSquare(10.0, SidesCircle)
 
-import math
+import (
+	"math"
+)
 
 var SidesTriangle SidesNumType = 3
 var SidesSquare SidesNumType = 4
