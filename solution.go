@@ -17,7 +17,7 @@ type SidesNumType int
 var SidesTriangle SidesNumType = 3
 var SidesSquare SidesNumType = 4
 var SidesCircle SidesNumType = 0
-var area float32
+var area float64
 //const Pi float32 = 3.14
 
 func CalcSquare(sideLen float64, sidesNum SidesNumType) float64 {
