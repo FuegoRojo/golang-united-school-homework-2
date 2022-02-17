@@ -1,5 +1,10 @@
 package square
 
+
+import (
+	"math"
+)
+
 // Define custom int type to hold sides number and update CalcSquare signature by replacing #yourTypeNameHere#
 type SidesNumType int 
 // Define constants to represent 0, 3 and 4 sides.  Test uses mnemos: SidesTriangle(==3), SidesSquare(==4), SidesCircle(==0)
@@ -8,9 +13,6 @@ type SidesNumType int
 // CalcSquare(10.0, SidesSquare)
 // CalcSquare(10.0, SidesCircle)
 
-import (
-	"math"
-)
 
 var SidesTriangle SidesNumType = 3
 var SidesSquare SidesNumType = 4
